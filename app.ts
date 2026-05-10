@@ -45,10 +45,19 @@ const persons: Person[] = [
   {
     type: "user",
     name: "Ronaldo",
-    age: 40,
+    age: 41,
     occupation: "THE GOAT",
   },
-  { type: "admin", name: "Tkay", age: 2, role: "Manager" },
+
+  { type: "admin", name: "Mourinho", age: 63, role: "Manager" },
+
+  {
+    type: "user",
+    name: "Messi",
+    age: 40,
+    occupation: "second GOAT",
+  },
+  { type: "admin", name: "Guardiola", age: 55, role: "Manager1" },
 ];
 
 // Calling the the functions
